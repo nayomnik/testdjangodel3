@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2018, 2:17:34 PM
+    Author     : User
+*/
+/**/
+.panel{
+    display: block;
+    color: white;
+    background-color: green;/**/
+    width: auto;
+    height: auto; 
+    border-color: transparent;
+    border: 0px solid;
+    z-index: 0;
+}
+.panel2{
+    display: block;
+    color: white;
+    background-color: white;
+    width: 100%;
+    height:  100%;
+    border-color: transparent;
+    border: 0px solid;
+    z-index: 0;
+}
+.pic0
+{
+    rotation-point: 50% 50%;
+    rotation: 90deg;
+    azimuth: far-left;
+    transform-origin: 50% 50%;
+    transform : rotate(0deg) ;
+    background-image:  url(images/4.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    /*z-index: 3;*/
+}
+.pic1
+{
+    rotation-point: 50% 50%;
+    rotation: 90deg;
+    azimuth: far-right;
+    transform-origin: 50% 50%;
+    transform : rotate(0deg) ;
+    background-image:  url(images/2.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+    /*z-index: 3;*/
+}
+.quoteLabel1 {
+    display: block;
+    color: black;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /*border: 1px solid;*/
+  /* border-color: green; */
+    text-decoration: none;
+    font-size: 90px;
+    z-index: 3;
+    /*z-index: 2;*/
+}
+.quoteLabel2 {
+    color: green;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    z-index: 4;
+    /*z-index: 1;*/
+}
+.pic2
+{
+    display: block;
+    /*background-color: white;*/
+    background-image:  url(images/3.png);
+    width: 100%;
+    height:  100%;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.raqamitel
+{
+    display: block;
+    color: yellow;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /*border: 1px solid;*/
+  /* border-color: green; */
+    text-decoration: none;
+    font-size: 18px;
+    z-index: 0;
+    /*z-index: 2;*/
+}
+.tel{
+    rotation-point: 50% 50%;
+    rotation: 0deg;
+    azimuth: far-left;
+    transform-origin: 50% 50%;
+    transform : rotate(0deg) ;
+    background-image:  url(images/phone.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
